@@ -1,6 +1,5 @@
 # Czechitas--SQL---Domaci ukol 1: where-podminky
-Úloha procvičující základní práci s SQL dotazy – výběr dat z tabulek, filtrování podle podmínek, řazení výsledků a úprava výstupu. Vypracováno v rámci vzdělávacího programu Czechitas (Kurz SQL).
-
+Úloha procvičující základní práci s SQL dotazy – výběr dat z tabulek, filtrování podle podmínek, řazení výsledků a úprava výstupu. Vypracováno v rámci vzdělávacího programu Czechitas (Kurz SQL). Pracovali jsme s fiktivní databází v systému Oracle, ke které jsme měli přístup během kurzu.
 Zadání:
 1. Vyberte prvních 5 výrobců (`manufacturers`), seřazených podle názvu abecedně vzestupně.
 2. Zjistěte všechny produkty z kategorie `Youth` a seřaďte je podle ceny (`priceNew`) sestupně.
