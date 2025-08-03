@@ -1,4 +1,4 @@
-# Czechitas--SQL---Dom-c-kol-1-where-podm-nky
+# Czechitas--SQL---Domaci ukol 1: where-podminky
 Úloha procvičující základní práci s SQL dotazy – výběr dat z tabulek, filtrování podle podmínek, řazení výsledků a úprava výstupu. Vypracováno v rámci vzdělávacího programu Czechitas (Kurz SQL).
 
 Zadání:
