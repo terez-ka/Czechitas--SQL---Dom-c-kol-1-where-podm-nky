@@ -1,2 +1,8 @@
 # Czechitas--SQL---Dom-c-kol-1-where-podm-nky
 Úloha procvičující základní práci s SQL dotazy – výběr dat z tabulek, filtrování podle podmínek, řazení výsledků a úprava výstupu. Vypracováno v rámci vzdělávacího programu Czechitas (Kurz SQL).
+
+Zadání:
+1. Vyberte prvních 5 výrobců (`manufacturers`), seřazených podle názvu abecedně vzestupně.
+2. Zjistěte všechny produkty z kategorie `Youth` a seřaďte je podle ceny (`priceNew`) sestupně.
+3. Vyberte všechny prodeje uskutečněné v únoru, jejichž tržba je mezi 1800 a 1900.
+   Zobrazte pouze sloupce `productid`, `calendarid` a tržbu za jeden kus, a vhodně je česky pojmenujte.
