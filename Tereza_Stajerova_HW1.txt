@@ -1,0 +1,18 @@
+--Zadání domácího úkolu:
+--Vyberte prvních 5 výrobcù (tabulka manufacturers) seøazených podle názvu abecednì vzestupnì.
+SELECT*FROM SQL1.MANUFACTURERS
+ORDER BY manufacturer asc
+FETCH FIRST 5 ROWS ONLY;
+
+
+--Zjistìte všechny produkty z kategorie Youth a seøaï je podle ceny (priceNew) sestupnì.
+SELECT* FROM SQL1.PRODUCTS
+WHERE Category = 'Youth'
+ORDER BY PRICENEW desc;
+
+--Vyberte všechny prodeje uskuteènìné v únoru a jejichž tržba je mezi 1800 a 1900. Zobrazte jen sloupce productid, calendarid a tržba za jeden kus a vhodnì je èesky pojmenujte.
+SELECT productid AS èíslo_produktu, calendarid AS datum, (revenue/units) AS tržba_za_ks
+FROM SQL1.SALES
+WHERE to_char(calendarid, 'MM')= '02' and revenue between 1800 and 1900;
+
+
